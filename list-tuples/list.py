@@ -5,6 +5,8 @@ list.append("world")
 print(list)
 list.extend(["no","yes",33.33])
 print(list)
+list.insert(2,"good")
+print(list)
 print(list.pop())
 list.pop()
 print(list)
@@ -14,6 +16,8 @@ print(list)
 print(list[2])
 list[2]="hi"
 print(list)
+
+# there are many list functions just learn on the go
 
 # reference copy
 list2=list
