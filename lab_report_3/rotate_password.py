@@ -5,7 +5,7 @@ final=""
 if " " in str:
     print("no whitespace plz")
 else:
-    first_part=str[:n]
-    second_part=str[n:]
+    first_part=str[:n-1]
+    second_part=str[n-1:]
     final=second_part+first_part
 print(final)
