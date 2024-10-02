@@ -17,3 +17,4 @@ i=0
 for keys in new_dict.keys():
     print(f"book {new_dict[keys]}: Original price: {book_prices[i]}, Discounted price: {new_dict[keys]}")
     i+=1
+    

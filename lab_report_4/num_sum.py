@@ -1,7 +1,7 @@
-input = list(map(int,input("enter numbers: ").split(',')))
+input = list(map(int,input("enter numbers: ").split()))
 list2=[]
 for i in range(len(input)):
-    if (len(str(input[i])))>3:
+    if (len(str(input[i])))<3:
         print(f"{input[i]} not possible")
     else:
         
