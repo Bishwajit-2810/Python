@@ -1,0 +1,10 @@
+pyttsx3
+pyjokes
+jupyterlab
+notebook
+numpy
+openpyxl
+pandas
+pyarrow
+pyjanitor
+ipykernel
